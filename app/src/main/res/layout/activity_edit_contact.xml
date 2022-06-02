@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditContact">
+
+    <TextView
+        style="@style/titre"
+        android:text="@string/titremenu4" />
+
+    <Spinner
+        android:id="@+id/spedit"
+        style="@style/combo" />
+
+    <EditText
+        android:id="@+id/editnom"
+        style="@style/zonesaisie"
+        android:hint="Nom ...." />
+
+    <EditText
+        android:id="@+id/editprenom"
+        style="@style/zonesaisie"
+        android:hint="Prenom ...." />
+
+    <EditText
+        android:id="@+id/editemail"
+        style="@style/zonesaisie"
+        android:hint="Email ...." />
+
+    <EditText
+        android:id="@+id/edittel"
+        style="@style/zonesaisie"
+        android:hint="Telephone ...." />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/btnMenu.stylebtn"
+            android:onClick="modifier"
+            android:text="Modifier"
+            />
+
+        <Button
+            style="@style/btnMenu.stylebtn"
+            android:onClick="supprimer"
+            android:text="Supprimer" />
+    </LinearLayout>
+
+</LinearLayout>

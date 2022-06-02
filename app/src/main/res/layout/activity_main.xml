@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/titre"
+        android:text="Menu Generale"/>
+    <Button
+        android:id="@+id/b1"
+        style="@style/btnMenu"
+        android:onClick="acces"
+        android:text="@string/menu1" />
+
+    <Button
+        android:id="@+id/b2"
+        style="@style/btnMenu"
+        android:onClick="acces"
+        android:text="@string/menu2" />
+
+    <Button
+        android:id="@+id/b3"
+        style="@style/btnMenu"
+        android:onClick="acces"
+        android:text="@string/menu3" />
+
+    <Button
+        android:id="@+id/b4"
+        style="@style/btnMenu"
+        android:onClick="acces"
+        android:text="@string/menu4" />
+
+</LinearLayout>

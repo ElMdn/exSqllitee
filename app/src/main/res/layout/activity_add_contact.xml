@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddContact">
+
+    <TextView
+        style="@style/titre"
+        android:text="@string/titremenu3" />
+
+    <EditText
+        android:id="@+id/enom"
+        style="@style/zonesaisie"
+        android:hint="Nom ...." />
+
+    <EditText
+        android:id="@+id/eprenom"
+        style="@style/zonesaisie"
+        android:hint="Prenom ...." />
+
+    <EditText
+        android:id="@+id/eemail"
+        style="@style/zonesaisie"
+        android:hint="Email ...." />
+
+    <EditText
+        android:id="@+id/etel"
+        style="@style/zonesaisie"
+        android:hint="Telephone ...." />
+
+    <Button
+        style="@style/btnMenu"
+        android:onClick="ajouterContact"
+        android:text="Ajouter" />
+
+</LinearLayout>

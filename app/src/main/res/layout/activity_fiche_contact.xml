@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FicheContact">
+
+    <TextView
+        style="@style/titre"
+        android:text="@string/titremenu2"
+        />
+
+    <Spinner
+        style="@style/combo"
+        android:id="@+id/spfiche"/>
+
+    <TextView
+        style="@style/zonefiche"
+        android:id="@+id/fichenom"/>
+
+    <TextView
+        style="@style/zonefiche"
+        android:id="@+id/ficheprenom"/>
+
+    <TextView
+        style="@style/zonefiche"
+        android:id="@+id/ficheemail"/>
+
+    <TextView
+        style="@style/zonefiche"
+        android:id="@+id/fichetel"/>
+
+
+
+</LinearLayout>

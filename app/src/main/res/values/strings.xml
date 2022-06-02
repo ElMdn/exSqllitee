@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">exSqllite</string>
+
+
+    <string name="titremenu">Menu Generale</string>
+    <string name="titremenu1">Lister Contact</string>
+    <string name="titremenu3">Ajouter Contact</string>
+    <string name="titremenu2">Fiche Contact</string>
+    <string name="titremenu4">Editer Contact</string>
+    <string name="menu1">Lister Contacts</string>
+    <string name="menu2">Fiche Contact</string>
+    <string name="menu3">Nouveau Contact</string>
+    <string name="menu4">Editer Contact</string>
+
+
+    </resources>
